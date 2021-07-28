@@ -35,7 +35,7 @@ This will create a secure tunnel by forwarding a port (the “destination port�
 *  Username: *root*
 *  Password: application password. (Refer to our [FAQ](https://docs.bitnami.com/aws/faq/get-started/find-credentials/) to learn how to find your application credentials). Here is an example of what you should see:
 
-![Access phpMyAdmin](Images/clip_image003.jpg)
+![PuTTY configuration](Images/clip_image003.jpg)
 
 If you are unable to access phpMyAdmin, verify that the SSH tunnel was created by checking the PuTTY event log (accessible via the “Event Log” menu):
 
@@ -67,5 +67,5 @@ If you are unable to access phpMyAdmin, verify that the SSH tunnel was created b
 
 Here is an example of what you should see:
 
-![Access phpMyAdmin](Images/clip_image005.jpg)
+![PuTTY configuration](Images/clip_image005.jpg)
  
