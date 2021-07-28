@@ -1,4 +1,4 @@
-​                                                    #Connect To PhpMyAdmin#
+# Connect To PhpMyAdmin
 
 For security reasons, phpMyAdmin is accessible only when using 127.0.0.1 as the hostname. To access it from a remote system, you must create an SSH tunnel that routes requests to the Web server from 127.0.0.1. This implies that you must be able to connect to your server over SSH in order to access these applications remotely.
 
@@ -26,7 +26,7 @@ This will create a secure tunnel by forwarding a port (the “destination port�
 
 ·     Click the “Add” button to add the secure tunnel configuration to the session. You’ll see the added port in the list of “Forwarded ports”.
 
-[![PuTTY configuration](C:\Users\Aditya Mishra\Downloads\clip_image001.gif)](https://docs.bitnami.com/images/img/infrastructure/common/create-ssh-tunnel-8888.png)
+![PuTTY configuration](Images/clip_image001.gif)
 
 * In the “Session” section, save your changes by clicking the “Save” button.
 *    Click the “Open” button to open an SSH session to the server. The SSH session will now include a secure SSH tunnel between the two specified ports.
@@ -35,11 +35,11 @@ This will create a secure tunnel by forwarding a port (the “destination port�
 *  Username: *root*
 *  Password: application password. (Refer to our [FAQ](https://docs.bitnami.com/aws/faq/get-started/find-credentials/) to learn how to find your application credentials). Here is an example of what you should see:
 
-[![Access phpMyAdmin](C:\Users\Aditya Mishra\Downloads\clip_image003.jpg)](https://docs.bitnami.com/images/img/components/phpmyadmin/access-phpmyadmin.png)
+![Access phpMyAdmin](Images/clip_image003.jpg)
 
 If you are unable to access phpMyAdmin, verify that the SSH tunnel was created by checking the PuTTY event log (accessible via the “Event Log” menu):
 
-[![PuTTY configuration](C:\Users\Aditya Mishra\Downloads\clip_image004.gif)](https://docs.bitnami.com/images/img/infrastructure/common/create-ssh-tunnel-log.png)
+![PuTTY configuration](Images/clip_image004.gif)
 
 **Access PhpMyAdmin On Linux And MacOS**
 
@@ -67,6 +67,5 @@ If you are unable to access phpMyAdmin, verify that the SSH tunnel was created b
 
 Here is an example of what you should see:
 
-[![Access phpMyAdmin](C:\Users\Aditya Mishra\Downloads\clip_image005.jpg)](https://docs.bitnami.com/images/img/components/phpmyadmin/access-phpmyadmin.png)
-
+![Access phpMyAdmin](Images/clip_image005.jpg)
  
